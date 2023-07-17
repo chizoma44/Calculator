@@ -9,10 +9,12 @@ body {
   border-radius: 25px;
   text-align: center;
   margin: 100px 530px;
+  box-shadow: 5px 10px 5px;
 }
 
 .calculator-top {
   font-size: 25px;
+  color: orchid;
 }
 
 button {
@@ -37,10 +39,20 @@ button {
   font-size: 15px;
 }
 
-@media() {
-  body {
-    display: flex;
-    height: 100%;
+@media (max-width: 900px) {
+  .container {
+    display: block;
     justify-content: center;
+    margin: 60px 110px;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    display: block;
+    justify-content: center;
+    margin: 40px 60px;
+    box-shadow: none;
   }
 }

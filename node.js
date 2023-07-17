@@ -2,7 +2,7 @@
 
 //Add an event listener to link all buttons with their identityies and functions.
 
-//Then perform the functions.
+//Then perform the functions.display: grid;
 
 function add(num1, num2) {
   return num1 + num2;
