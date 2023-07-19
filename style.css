@@ -26,6 +26,12 @@ button {
   margin: 0;
   border: 0;
 }
+
+button:hover {
+  background: white;
+  color: black;
+  cursor: grab;
+}
 .previous-opps,
 .current-opps {
   text-align: right;
