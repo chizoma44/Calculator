@@ -1,20 +1,53 @@
 body {
   box-sizing: border-box;
   font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .container {
+  width: 300px;
+  height: 500px;
   background: black;
   display: block;
   border: 1px solid black;
   border-radius: 25px;
   text-align: center;
-  margin: 100px 530px;
+  overflow: hidden;
   box-shadow: 5px 10px 5px;
 }
 
-.calculator-top {
+form input {
+  height: 80px;
+
   font-size: 25px;
   color: orchid;
+  border: 0;
+  pointer-events: none;
+  appearance: 0;
+  background: black;
+  text-align: right;
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 70px;
+  padding-right: 8px;
+  letter-spacing: 4px;
+}
+
+.previous-opps {
+  appearance: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: black;
+}
+
+.current-opps {
+  appearance: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: black;
 }
 
 button {
