@@ -8,46 +8,27 @@ body {
 .container {
   width: 300px;
   height: 500px;
+  margin-top: 80px;
   background: black;
   display: block;
   border: 1px solid black;
   border-radius: 25px;
   text-align: center;
-  overflow: hidden;
   box-shadow: 5px 10px 5px;
+  overflow: hidden;
 }
 
 form input {
-  height: 80px;
-
-  font-size: 25px;
+  height: 150px;
+  width: 100%;
+  font-size: 2rem;
   color: orchid;
-  border: 0;
+  border: none;
+  border-radius: 12px;
   pointer-events: none;
-  appearance: 0;
   background: black;
-  text-align: right;
-  padding-left: 20px;
-  padding-top: 8px;
-  padding-bottom: 70px;
-  padding-right: 8px;
-  letter-spacing: 4px;
-}
-
-.previous-opps {
-  appearance: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: black;
-}
-
-.current-opps {
-  appearance: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: black;
+  text-align: center;
+  padding: 1rem;
 }
 
 button {
@@ -63,19 +44,8 @@ button {
 button:hover {
   background: white;
   color: black;
-  cursor: grab;
-}
-.previous-opps,
-.current-opps {
-  text-align: right;
-  padding: 20px;
-  padding-top: 8px;
-  padding-right: 8px;
-  letter-spacing: 4px;
-}
-
-.span-two {
-  font-size: 15px;
+  cursor: pointer;
+  border-radius: 15px;
 }
 
 @media (max-width: 900px) {
