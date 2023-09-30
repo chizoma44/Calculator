@@ -14,7 +14,7 @@
   //ii. Create an event listener for that clicked button.
   //iii. Link the  clicked button to a click event and a function.
   //iv. Crate a variable of value that will pick the value of the clicked buttom.
-  //v. Then push this value to the screen with a
+  //v. Then push this value to the screen with a "event.target.dataset.num" syntax.
 
   buttons.forEach(function (button) {
     button.addEventListener("click", function (e) {
